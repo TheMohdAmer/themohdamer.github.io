@@ -3,23 +3,23 @@ import { motion } from "framer-motion";
 
 export default function Intro() {
   return (
-    <section id="About" className="py-16 md:py-20 px-4 md:px-6">
+    <section id="About" className="py-16 md:py-2 px-1 md:px-1">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="p-12 pb-16 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-[#DCD6F7] 
+          className="p-2 pb-6 md:p-8 md:pb-10 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-[#DCD6F7] 
             dark:bg-[#000020] hover:shadow-lg hover:scale-[1.01] transition duration-300"
         >
-          <h2 className="text-2xl md:text-3xl font-bold mb-10">About Me</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-8">About Me</h2>
           <div
-            className="p-6 rounded-2xl bg-[#DCD6f7] dark:bg-[#000018] border border-zinc-200 dark:border-zinc-800 pb-10 
+            className="p-5 rounded-2xl bg-[#DCD6f7] dark:bg-[#000018] border border-zinc-200 dark:border-zinc-800 
       hover:shadow-lg hover:scale-[1.04] 
       transition duration-300"
           >
-            <h3 className="mt-4 text-md text-zinc-600 dark:text-zinc-400">
+            <h3 className="text-md text-zinc-600 dark:text-zinc-400">
               I am a full-stack developer who enjoys building complete web
               applications from frontend to backend. I focus on writing clean
               and structured code, ensuring that applications are easy to
@@ -37,7 +37,7 @@ export default function Intro() {
 
             {/* JOURNEY */}
             <div
-              className="p-6 rounded-2xl bg-[#DCD6f7] dark:bg-[#000018] border border-zinc-200 dark:border-zinc-800 pb-10 
+              className="p-5 rounded-2xl bg-[#DCD6f7] dark:bg-[#000018] border border-zinc-200 dark:border-zinc-800 
       hover:shadow-lg hover:scale-[1.04] 
       transition duration-300"
             >

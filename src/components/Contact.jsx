@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <section id="Contact" className="py-16 md:py-40 px-4 md:px-6">
+    <section id="Contact" className="py-0 md:py-40 px-0 md:px-6">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -17,12 +17,12 @@ export default function Contact() {
           </h2>
 
           <div>
-            <div className="flex flex items-center gap-8 text-2xl text-zinc-400 justify-center py-10">
+            <div className="flex flex items-center gap-5 md:gap-8 text-2xl text-zinc-400 justify-center py-10">
               {/* Email */}
               <a
                 href="mailto:mohdamer2957@gmail.com"
                 target="_blank"
-                className="p-4 rounded-full bg-[#DCD6F7] hover:bg-[#DCD6F7] dark:bg-[#000030] dark:hover:bg-[#000040] 
+                className="p-4  rounded-full bg-[#DCD6F7] hover:bg-[#DCD6F7] dark:bg-[#000030] dark:hover:bg-[#000040] 
           text-black dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-white transition duration-300 
            hover:-translate-y-1"
               >
