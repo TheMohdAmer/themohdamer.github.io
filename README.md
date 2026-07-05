@@ -1,16 +1,160 @@
-# React + Vite
+#  Mohd Amer | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](public/preview.png)
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.1.1-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation-0055FF)
+![React Icons](https://img.shields.io/badge/React_Icons-Icons-E91E63)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, responsive developer portfolio built to showcase my projects, technical skills, and experience as a Full Stack Developer.
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://themohdamer.github.io/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 About
+
+This portfolio highlights my journey as a Full Stack Developer, featuring my projects, technical skills, and experience in building scalable web applications.
+
+The website is fully responsive, supports both Light and Dark themes, and includes smooth animations for an engaging user experience.
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Light & Dark Mode
+- Smooth Animations
+- Mobile-Friendly Navigation
+- About Me Section
+- Skills Showcase
+- Project Showcase
+- Contact Section
+- Clean Modern UI
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Tools
+
+- Git
+- GitHub
+- GitHub Pages
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Contact.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Intro.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProjectModal.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Section.jsx
+│   │   ├── SectionCard.jsx
+│   │   ├── SkillCard.jsx
+│   │   └── ThemeToggle.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```bash
+git clone https://github.com/themohdamer/themohdamer.github.io.git
+```
+
+Navigate to the project
+
+```bash
+cd themohdamer.github.io
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Deployment
+
+This portfolio is deployed using **GitHub Pages**.
+
+Deploy command
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📬 Contact
+
+Email
+
+**mohdamer2957@gmail.com**
+
+GitHub
+
+https://github.com/themohdamer
+
+LinkedIn
+
+**https://www.linkedin.com/in/mohdamer2957**
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.

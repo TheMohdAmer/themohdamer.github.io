@@ -40,17 +40,17 @@ export default function Projects() {
   return (
     <>
       <div>
-        <section id="Projects" className="min-h-screen py-20 px-4 md:px-6">
+        <section id="Projects" className="min-h-screen py-12 px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Recent Projects</h2>
+            <h2 className="text-2xl md:text-3xl font-bold">Recent Projects</h2>
 
             {/* GRID */}
-            <div className="mt-14 grid md:grid-cols-2 gap-6">
+            <div className="mt-6 md:mt-10 grid md:grid-cols-2 gap-6">
               {filtered.map((p) => (
                 <div
                   key={p.id}
                   onClick={() => onSelect(p)}
-                  className="p-12 pb-10 rounded-2xl border border-zinc-200 dark:border-zinc-800 
+                  className="p-6 md:p-10 pb-10 rounded-2xl border border-zinc-200 dark:border-zinc-800 
       bg-[#DCD6f7] dark:bg-[#000022] 
       hover:shadow-lg hover:scale-[1.04] 
       transition duration-300"

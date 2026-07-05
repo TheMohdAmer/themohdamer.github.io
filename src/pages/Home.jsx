@@ -28,10 +28,10 @@ export default function Home() {
       <Hero />
       <Intro />
 
-      <div className="pt-12">
-        <Section id="Skills" className="py-16 md:py-20">
+      <div className="pt-0 md:pt-6">
+        <Section id="Skills">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold mt-4 mb-4 md:mb-8">
               Skills & Expertise
             </h2>
 

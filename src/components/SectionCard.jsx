@@ -9,7 +9,7 @@ export default function SectionCard({ id, title, children, skills }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
       viewport={{ once: true }}
-      className="p-12 pb-16 rounded-2xl border border-zinc-200 dark:border-zinc-800 
+      className="p-6 md:p-8 md:pl-10 rounded-2xl border border-zinc-200 dark:border-zinc-800 
       bg-[#DCD6f7] dark:bg-[#000021] 
       hover:shadow-lg hover:scale-[1.04] 
       transition duration-300"
