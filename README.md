@@ -90,6 +90,12 @@ portfolio/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository
+
 ```bash
 git clone https://github.com/themohdamer/themohdamer.github.io.git
 ```

@@ -8,7 +8,8 @@ export default function Projects() {
       id: 1,
       title: "Inventory Dashboard",
       desc: "Developed an inventory dashboard for managing products, tracking stock levels, and visualizing data through interactive charts and reports. Implemented admin and user authentication, built dynamic tables using Ant Design and AG Grid, and integrated ECharts with backend APIs for real-time, scalable performance.",
-      link:"https://github.com/TheMohdAmer/Projects/tree/main/inventory-dashboard",
+      link: "https://github.com/TheMohdAmer/Inventory-Dashboard",
+      live: "https://inventory-dashboard-q16n.vercel.app/",
       tech: ["React", "Redux Toolkit", "Ant Design"],
       category: "Frontend",
       image: "../inventory_dashboard_bg.png",
@@ -17,7 +18,7 @@ export default function Projects() {
       id: 2,
       title: "Chat Application",
       desc: "Developed a real-time chat application for seamless one-to-one messaging with instant updates and a responsive UI built using React and Redux Toolkit. Integrated Node.js APIs with MySQL database to handle user data and messages efficiently, ensuring scalable and smooth performance.",
-      link:"https://github.com/TheMohdAmer/Projects/tree/main/ChatApp",
+      link: "https://github.com/TheMohdAmer/Projects/tree/main/ChatApp",
       tech: [
         "React",
         "Ant Design",
@@ -58,18 +59,54 @@ export default function Projects() {
                   {/* CONTENT */}
                   <h3 className="text-2xl font-semibold mb-6 ">{p.title}</h3>
 
-                  <p className="mt-6 text-md text-justify">
-                    {p.desc}
-                  </p>
-                  <span className="flex justify-end">
+                  <p className="mt-6 text-md text-justify">{p.desc}</p>
+                  <div className="mt-6 mb-2 flex justify-end gap-4">
+                    {p.live && (
+                      <a
+                        href={p.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+        px-4 py-1 rounded-sm
+        bg-purple-600
+        text-white
+        font-medium
+        shadow-md
+        hover:bg-purple-500
+        hover:shadow-lg
+        active:scale-95
+        transition-all duration-300
+        dark:bg-[#5B21B3]
+        dark:hover:bg-[#000040]
+        dark:hover:text-yellow-500
+      "
+                      >
+                        Live Demo
+                      </a>
+                    )}
+
                     <a
-                      target="_blank"
                       href={p.link}
-                      className="mt-6 mb-2 hover:text-purple-500"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="
+      px-3 py-1 rounded-sm
+      border border-purple-500
+      text-purple-600
+      font-medium
+      hover:bg-purple-500
+      hover:text-white
+      active:scale-95
+      transition-all duration-300
+      dark:text-purple-400
+      dark:border-purple-400
+      dark:hover:bg-[#000040]
+      dark:hover:text-white
+    "
                     >
-                      View Code →
+                      View Code
                     </a>
-                  </span>
+                  </div>
 
                   <div className="flex flex-wrap gap-2 mt-4">
                     {p.tech.map((t) => (
